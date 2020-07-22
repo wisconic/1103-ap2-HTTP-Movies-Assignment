@@ -5,6 +5,11 @@ body {
   background-color: #f2f2f2;
 }
 
+a {
+  color: #333;
+  text-decoration: none;
+}
+
 .movie-card {
   background-color: #fff;
   border: 0;
@@ -59,7 +64,7 @@ body {
   right: 25px;
   border: 1px solid grey;
   padding: 5px 10px;
-  background-color: lightseagreen;
+  background-color: #8ebe94;
 }
 .save-button:hover {
   background-color: green;
@@ -71,7 +76,21 @@ body {
   background-color: lightskyblue;
 }
 
+.update-button {
+  padding: 5px 10px;
+  background-color: lightskyblue;
+}
+
+.delete-button {
+  padding: 5px 10px;
+  background-color: #ff6e6c;
+}
+
 .movie-warning {
   color: red;
   text-align: center;
+}
+button:hover {
+  cursor: pointer;
+  box-shadow: 0px 2px 6px -2px rgb(128, 127, 127);
 }
